@@ -1,0 +1,6 @@
+[package]
+name = "self-type"
+version = "0.1.0"
+authors = ["Daniel Sank <sank.daniel@gmail.com>"]
+
+[dependencies]
