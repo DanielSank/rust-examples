@@ -1,3 +1,8 @@
-trait Monad<M,A> {
-    fn flatmap<B,C: Monad<M,B>>(&self, f: fn(A) -> C) -> C;
+trait Monad<A> {
+    fn flatmap<B, C: Monad<B>>(&self, f: fn(A) -> C) -> C;
+}
+
+
+fn main() {
+    println!("It compiled!");
 }
